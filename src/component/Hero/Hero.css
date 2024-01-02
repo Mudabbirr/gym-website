@@ -1,0 +1,288 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    /* background-image: url(data:image/png;base64,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); */
+
+}
+
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.the-best-ad{
+    display: flex;
+    margin-top: 2rem;
+    background-color: rgb(44, 44, 44);
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 15px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+.the-best-ad>span{
+    z-index: 2;
+}
+.the-best-ad>div{
+    position: absolute;
+    background-color: var(--gray);
+    width: 5rem;
+    height: 80%;
+    left: 6px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: var(--orange);
+    text-overflow: inherit;
+}
+.simple-text{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 350;
+    text-transform: none;
+    width: 80%;
+    letter-spacing: 0.5px;
+    position: relative;
+    margin-top: 1rem;
+}
+.figures{
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+.figures>div>span:nth-of-type(1){
+    font-size: 2rem;
+    color: white;
+}
+.figures>div>span:nth-of-type(2){
+    text-transform: uppercase;
+    color:rgb(182, 180, 180);
+}
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal; 
+    padding-bottom: 2rem;
+}
+.hero-buttons>:nth-child(1){
+    color: rgb(0, 0, 0);
+    background-color: var(--orange);
+    width: 8rem;
+}
+.hero-buttons>:nth-child(2){
+    color: white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid var(--orange);
+}
+.right-h{
+    flex: 0.8;
+    position: relative;
+    background-color: var(--orange);
+    border-radius: 9px;
+}
+.right-h>.btn{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    color: black;
+}
+.heart-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    padding: 0.5rem;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 3rem;
+    top: 7rem;
+    align-items: center;
+}
+.heart-rate>span:nth-of-type(1){
+    color: rgb(173, 173, 173);
+}
+.heart-rate>span:nth-of-type(2){
+    color: white;
+    font-size: 1rem;
+}
+.heart-rate>img{
+    width: 2.2rem;
+}
+.Heroo-image{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    right: 8rem;
+    top: 5rem;
+}
+.Hero-image-back{
+    width: 15rem;
+    position: absolute;
+    top: 10rem;
+    right: 15rem;
+    z-index: -1;
+}
+.calories-img{
+    width: 2rem;
+    height: 4rem;
+}
+.Calories{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 5px;
+    position: absolute;
+    top: 35rem;
+
+    
+}
+.Calories>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.Calories>div>:nth-child(1){
+    color: rgb(173, 173, 173);
+    font-size: 1.2rem;
+}
+.Calories>div>:nth-child(2){
+    color: rgb(173, 173, 173);
+    font-size: 1.2rem;
+}
+.Calories>div>:nth-child(3){
+    color: rgb(253, 253, 253);
+    font-size: 1rem;
+}
+.hero-blur{
+    height: 35rem;
+    width: 22rem;
+    left: 0;
+}
+.shape{
+    font-size: 4rem ;
+}
+
+
+
+
+@media screen  and (max-width: 768px){
+
+    .hero{
+        flex-direction: column;
+    }
+    .hero-blur{
+        width: 15rem;
+    }
+    .the-best-ad{
+        font-size: small;
+        margin-top: -3rem;
+        align-self: center;
+    }
+    .hero-text{
+        font-size: xx-large;
+        align-items: center;
+    }
+    .shape{
+        font-size: xx-large;
+    }
+    .simple-text{
+        font-size: medium;
+        letter-spacing:normal;
+        text-align: center;
+    }
+    .figures{
+        margin-top: -1rem;
+    }
+    .figures>div>span{
+        font-size: small;
+    }
+    .figures>div>span:nth-of-type(1){
+       font-size: x-large;
+    }
+
+    .right-h{
+        margin-top: -3rem;
+        background-color: transparent;
+       
+    }
+    .right-h .button{
+         align-items: center;
+         position: absolute; 
+    }
+    .Calories{
+        padding: 0.5rem;
+    }
+    .Calories>div>:nth-child(1){
+        font-size: medium
+    }
+    .Calories>div>:nth-child(2){
+        font-size: medium
+    }
+    .Calories>div>:nth-child(3){
+        font-size:small
+
+    }
+    .Calories>img{
+        width: 1rem;
+        height: 2.5rem;
+        
+    }
+    .heart-rate{
+        margin-top: -5.3rem;
+    }
+    .heart-rate>img{
+        width: 1.5rem;
+    }
+    .heart-rate>span:nth-of-type(2){
+        color: white;
+        font-size: 0.9rem;
+        margin-top: -0.3rem;
+        
+    }
+    .Heroo-image{
+        position: relative;
+     width: 15rem;
+     margin-top: 2rem;
+     
+    }
+    .Hero-image-back{
+    width: 9rem;
+    margin-top: 5rem;
+    }
+
+
+} 
+
+
+@media screen  and (max-width: 768px){
+
+
+
+    
+}

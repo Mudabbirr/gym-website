@@ -1,0 +1,135 @@
+.Testimonials{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .left-t>:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(255, 136, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    /* padding: 2rem; */
+/* } */
+
+.left-t{
+    display: flex;
+    flex: 1 1;
+    gap: 1rem;
+    flex-direction: column;
+    color: white;
+}
+.testmonial-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+}
+.say-about{
+    font-size: 3.5rem;
+    color: var(--orange);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 2.5px;
+    line-height: 3rem;
+}
+.status{
+    margin-top: 2rem;
+}
+.right-t{
+    flex: 1;
+    position: relative;
+}
+.right-t>img{
+    position: absolute;
+    object-fit: cover;
+    width: 16rem;
+    height: 18rem;
+    left:10rem;
+    top: 2rem;
+}
+/* .arrows>img{
+    margin-left: 3rem;
+}
+.arrows>img:nth-child(1){
+    width: 1.5rem;
+    position: absolute;
+    margin-top: 20rem;
+}
+.arrows>img:nth-child(2){
+    width: 1.5rem;
+    position: absolute;
+    margin-top:20rem;
+    left: 3rem;
+} */
+.arrows{
+    display: flex;
+    gap: 1rem;
+    bottom: 1rem;
+    left:3rem;
+    position: absolute;
+}
+.arrows>img{
+    cursor: pointer;
+    width: 1.5rem;
+}
+.right-t>:nth-child(1){
+      position: absolute;
+      width: 16rem;
+      height: 18rem;
+      border: 2px solid var(--orange);
+      background-color: transparent;
+      right: 12rem;
+      top: 1rem;
+}
+.right-t>:nth-child(2){
+    position: absolute;
+    width: 16rem;
+    height: 18rem;
+    background: var(--planCard);
+    top: 3rem;
+    right: 10rem;
+}
+
+@media screen  and (max-width: 768px){
+    .Testimonials{
+        flex-direction: column;
+    }
+    .paragraph{
+        font-size: medium;
+        letter-spacing:normal;
+        line-height: 20px;
+    }
+    .say-about{
+        line-height: 55px;
+    }
+   .right-t>div{
+    position: relative;
+    display: none;
+   }
+   .right-t>img{
+    top: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    align-self: center; 
+
+   }
+   .right-t>:last-child{
+    display: flex;
+    position: absolute;
+    bottom: -2rem;
+    left: 0;
+    gap: 2rem;
+   }
+
+
+}

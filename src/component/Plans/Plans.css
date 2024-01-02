@@ -1,0 +1,131 @@
+.plans-container{
+    margin-top: -3rem;
+    padding: 0 2rem;
+}
+.journey-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--orange);
+}
+.plans-header{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    font-style: italic;
+}
+.plans{
+    margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    width: 15rem;
+    background-color:  var(--darkGrey);
+    padding: 2rem;
+}
+.plan>:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plan>:nth-child(3){
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plan:nth-child(3){
+    background: var(--planCard);
+    transform: scale(1.1);
+}
+.plan>:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 1rem; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.feature>img{
+    width: 20px;
+    margin-right: 1rem;
+}
+.see-benefit{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.plan>svg{
+    fill: var(--gray);
+    width: 2rem;
+    height: 2rem;
+}
+.plans>:nth-child(2)>svg{
+    fill: white;
+}
+.plans>:nth-child(4)>svg{
+    fill: white;
+}
+/* .plans>:nth-child(2)>button{
+    color: #f48915;
+} */
+.plan-blur{
+    align-items: center;
+    width: 30rem;
+    height: 20rem;
+    background-color: var(--orange);
+    filter: blur(210px);
+
+}
+
+
+
+
+
+
+
+@media screen  and (max-width: 768px){
+
+    .plans-container{
+        margin-top: 3px;
+    }
+    
+    .plans{
+        flex-direction: column; 
+
+    }
+    .plan{
+        padding: 1rem;
+    }
+    .plan:nth-child(3){
+        transform: none;
+    }
+
+    .plans-header{
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 9px;
+    }
+    .plans-header>span{
+        font-size: x-large
+    }
+    .journey-text{
+        margin-bottom: 11px;
+    }
+}
